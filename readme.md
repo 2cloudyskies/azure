@@ -29,9 +29,10 @@ To find the TenantID from the webUI, go to Azure Active Directory > Overview
 
 ![tenantID](https://github.com/2cloudyskies/azure/blob/main/tenantID.png)
 
+3. Switching between Azure subscriptions if you have multiple ones
+
 ```PowerShell
 
-3. Switching between Azure subscriptions if you have multiple ones
 
 PS /Users/chwong> Get-AzSubscription
 
