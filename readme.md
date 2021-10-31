@@ -14,6 +14,6 @@ Connect-AzAccount -TenantId 45794f26-9e1d-4849-aa49-601317b98dc1
 
 To find the TenantID from the webUI, go to Azure Active Directory > Overview
 
-![tenantID](https://xxxx)
+![tenantID](https://github.com/2cloudyskies/azure/blob/main/tenantID.png)
 
 3. Switching between Azure subscriptions if you have multiple ones
