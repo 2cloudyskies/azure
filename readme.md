@@ -9,6 +9,14 @@ Install-Module -Name Az -AllowClobber -Repository PSGallery -Force
 
 ```
 
+Check the version of Azure module installed. You can have multiple Azure module versions, and by default PowerShell will use the latest one.
+
+```PowerShell
+Get-InstalledModule -Name Az -AllVersions | Select-Object -Property Name, Version
+
+
+```
+
 2. Connect to your Azure account. Note that the TenantId will come in if you use MFA in your Azure subscription. If you attempt to connect to Azure without specifying TenantID and if MFA is enabled, the error message will tell you the exact TenantID to use. 
 
 ```PowerShell
