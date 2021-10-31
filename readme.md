@@ -21,7 +21,7 @@ Get-InstalledModule -Name Az -AllVersions | Select-Object -Property Name, Versio
 
 ```PowerShell
 
-Connect-AzAccount -TenantId 45794f26-9e1d-4849-aa49-601317b98dc1
+Connect-AzAccount -TenantId XXXXXXXXX
 
 ```
 
