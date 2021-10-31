@@ -1,4 +1,4 @@
-General notes on Azure
+# General notes on Azure
 
 Using PowerShell and Azure Module
 
