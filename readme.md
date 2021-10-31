@@ -36,7 +36,7 @@ To find the TenantID from the webUI, go to Azure Active Directory > Overview
 
 PS /Users/chwong> Get-AzSubscription
 
-PS /Users/chwong> $context = Get-AzSubscription -SubscriptionId ad6f62ba-74ae-4f03-8123-5431c364621d
+PS /Users/chwong> $context = Get-AzSubscription -SubscriptionId XXXXXXXX
 
 PS /Users/chwong> Set-AzContext $context
 
