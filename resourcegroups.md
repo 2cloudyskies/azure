@@ -1,0 +1,1 @@
+This diagram shows the relationship between management groups, subscriptions, resource groups and resources. A tenant can have multiple management groups and before a management group can be used it has to be tied to a subscription.
