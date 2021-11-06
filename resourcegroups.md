@@ -5,3 +5,7 @@ This diagram shows the relationship between management groups, subscriptions, re
 ![azureresourcegrp](https://github.com/2cloudyskies/azure/blob/main/azureresource.png)
 
 More information is available [here](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources)
+
+A management group can nest other management groups. 
+
+A resource group cannot nest another resource group.
