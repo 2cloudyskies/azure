@@ -8,4 +8,4 @@ More information is available [here](https://docs.microsoft.com/en-us/azure/clou
 
 A management group can nest other management groups. 
 
-A resource group cannot nest another resource group.
+A resource group cannot nest another resource group. A resource group is defined in a location, but resources in it do not have to be in the same location.
